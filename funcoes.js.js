@@ -94,3 +94,13 @@ function exe5(){
     }
     alert("RESULTADO " + resultado)
 }
+function exe7(){
+    var salario = Number(prompt("Informe o salário"))
+    if (salario < 500){
+        var novo = salario + salario*30/100
+        alert("Novo Salário " + novo)
+    }
+    else {
+        alert("Não tem direito a aumento! Meus sentimentos")
+    }
+}
