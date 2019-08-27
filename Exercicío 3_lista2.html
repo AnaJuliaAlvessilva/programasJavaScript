@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> Preço com 10% de Desconto </title>
+    </head>
+    <script>
+       function Desconto(){
+           // recuperar o valor1
+            var valor1 = document.getElementById("valor1").value;
+            // recuperar o valor2
+            var valor2 = document.getElementById("valor2").value;
+       
+       if (valor1 > valor2){
+           alert("O MENOR NÚMERO É" + valor2)
+       }
+       else if (valor2 > valor1){
+           alert("O MENOR NÚMERO É" + valor1)
+       }
+
+    </script>
+    </head>
+      <body>
+        <div>
+           <p>
+            <input id="MENOR NÚMERO">
+           </p>
+              <p>
+                <button onclick="calcular()"> Calcular </button>
+               </p>
+        </div>
+      </body>
+</html>      

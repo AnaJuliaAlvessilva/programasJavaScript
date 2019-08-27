@@ -1,0 +1,50 @@
+<html>
+ <head>
+    <title> Notas </title>
+ </head>
+ <script>
+    function Media(){
+        // recuperar a nota1
+        var nota1 = document.getElementById("nota1").value;
+        // recuperar a nota2
+        var nota2 = document.getElementById("nota2").value;
+        // recuperar a nota3
+        var nota3 = document.getElementById("nota3").value;
+        // recuperar a nota4
+        var nota4 = document.getElementById("nota4").value;
+        // recuperar a Media
+         var m = ((nota1 + nota2 + nota3 + nota4)/4)
+
+         if (m > 7){
+             alert("ALUNO APROVADO!!!")
+         }
+         else if (m < 7){
+             alert("ALUNO REPROVADO!!! ESTUDE MAIS:(")
+         }
+    }
+ </script>
+ </head>
+  <body>
+    <div>
+      <p>
+        "nota1"
+          <input id="Nota 1">
+      </p>
+      <p>
+        "nota2"
+          <input id="Nota 2">
+      </p>
+      <p>
+        "nota3"
+          <input id="Nota 3">
+      </p>
+      <p>
+        "nota4"
+          <input id="Nota 4">
+      </p>
+      <p>
+        <button onclick="calcular()"> Calcular </button>
+      </p>
+    </div>
+  </body>
+<html>
